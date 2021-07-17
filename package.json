@@ -1,7 +1,7 @@
 {
   "name": "react-native-sound-tune",
   "version": "0.1.0",
-  "description": "generate simple audio tune of different frequency with no sweat. generating audio tune is not that easy. This library will help you.",
+  "description": "Generate simple audio tune of different frequency with no sweat. generating audio tune is not that easy. This library will help you.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/index.d.ts",
