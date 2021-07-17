@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.authors      = package["author"]
 
   s.platforms    = { :ios => "10.0" }
-  s.source       = { :git => "https://www.facebook.com/canh7antt/.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/canh7antt8a/react-native-beep-tune.git", :tag => "#{s.version}" }
 
   s.source_files = "ios/**/*.{h,m,mm,swift}"
 

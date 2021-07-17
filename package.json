@@ -36,13 +36,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://www.facebook.com/canh7antt/",
+  "repository": "https://github.com/canh7antt8a/react-native-beep-tune.git",
   "author": "CanhLV <canhlv@d2t.vn> (https://www.facebook.com/canh7antt/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://www.facebook.com/canh7antt//issues"
+    "url": "https://github.com/canh7antt8a/react-native-beep-tune/issues"
   },
-  "homepage": "https://www.facebook.com/canh7antt/#readme",
+  "homepage": "https://github.com/canh7antt8a/react-native-beep-tune#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
@@ -149,5 +149,8 @@
         }
       ]
     ]
+  },
+  "dependencies": {
+    "yarn": "^1.22.10"
   }
 }
