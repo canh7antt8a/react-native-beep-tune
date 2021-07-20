@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { StyleSheet, View, Text } from 'react-native';
+import { StyleSheet, View, Text, TouchableOpacity } from 'react-native';
 import SoundTune from 'react-native-sound-tune';
 
 export default function App() {
@@ -13,7 +13,34 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Result: {result}</Text>
-      <Text>Result: {result}</Text>
+      <TouchableOpacity
+        onPress={() => {
+          SoundTune.setTuneFreq(20000).then((data) => {
+            console.log(data);
+          });
+        }}
+      >
+         <Text>SET FREQ</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity
+        onPress={() => {
+          SoundTune.playTune().then((data) => {
+            console.log(data);
+          });
+        }}
+      >
+        <Text>PLAY</Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        onPress={() => {
+          SoundTune.stopTune().then((data) => {
+            console.log(data);
+          });
+        }}
+      >
+        <Text>STOP</Text>
+      </TouchableOpacity>
     </View>
   );
 }
