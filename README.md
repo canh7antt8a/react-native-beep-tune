@@ -12,10 +12,9 @@ npm install react-native-sound-tune
 
 ```js
 import SoundTune from "react-native-sound-tune";
-
-// ...
-
-const result = await SoundTune.multiply(3, 7);
+const result = await SoundTune.setTuneFreq(200);
+const result = await SoundTune.playTune();
+const result = await SoundTune.stopTune();
 ```
 
 ## Contributing
